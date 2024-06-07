@@ -18,6 +18,8 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 # docker run -d --name jenkins -p 8080:8080 -p 50000:50000 jenkins/jenkins:alpine3.18-jdk11
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/9a8a7246-d86b-4937-9a46-c0ec955114a4)
+
 
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
@@ -30,12 +32,13 @@ Para obtener la contraseña solicitada es necesario ingresar al contenedor.
 ```
 docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ```
-# COMPLETAR
+# docker exec jenkins ls -l
 ### ¿Para qué se usa el comando ls?
 ### ¿Para qué sirve el argumento -l junto al comando ls?
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
-# COMPLETAR
+# docker exec jenkins ls -l
 # COLOCAR UNA CAPTURA DE PANTALLA
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/6fbb61ed-3cc2-4f00-8f1e-877a22ce8680)
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
 El comando **docker exec** te permite acceder a la sesión shell de un contenedor en ejecución, estarás dentro del contenedor y podrás ejecutar comandos como si estuvieras en una terminal normal. 
@@ -69,7 +72,8 @@ Ejecutar
 ```
 whoami
 ```
-# COLOCAR UNA CAPTURA DE PANTALLA
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/ad564af2-af8f-4249-a1e9-53d89a009ced)
+
 
 **Si se visualiza el mensaje command not found, considerar**
 El problema se debe a que no se ha asignado un terminal de salida al contenedor al ejecutar el comando. Cuando usas docker exec -i jenkins-server /bin/bash en Windows, el comando se ejecuta pero no hay un terminal asignado para mostrar la salida del comando ls.
@@ -89,9 +93,10 @@ docker exec -it <nombre contenedor> <programa o comando>
 
 ### Ahora puedes acceder al contenedor de jenkins y obtener la contraseña ubicada en /var/jenkins_home/secrets/initialAdminPassword
 
-# COMPLETAR
+# docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
-### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/60504b4f-431b-4c39-b491-81b1d59350be)
+
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
