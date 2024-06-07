@@ -6,8 +6,8 @@
 # COMPLETAR
 
 La figura presenta el esquema creado en donde los puertos son:
-- a: (completar con el valor)
-- b: (completar con el valor)
+- a: (80)
+- b: (80)
 - c: (5432)
 
 ![Imagen](imagenes/esquema-ejercicio3.PNG)
