@@ -54,8 +54,14 @@ docker run -d --name nginx[numero] --network red1 nginx:alpine
 El número se repite para alcanzar los contenedores
 # COLOCAR UNA CAPTURA DE LAS REDES EXISTENTES CREADAS
 
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/34d781d2-8dd7-445a-bbf9-bdf77f04cbbb)
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/d909e018-89c4-4f5b-bc55-d30acb0fac32)
 
 # COLOCAR UNA(S) CAPTURAS(S) DE LOS CONTENEDORES CREADOS EN DONDE SE EVIDENCIE A QUÉ RED ESTÁN VINCULADOS
+docker network inspect red1
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/6759d010-8361-4dcc-906e-4ad03b858c8c)
+docker network inspect red2
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/ed0b2cb8-0d4e-4796-b053-4a469d8756f0)
 
 ### Para eliminar las redes creadas
 ```
