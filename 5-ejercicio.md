@@ -2,7 +2,7 @@
 ![Imagen](imagenes/esquema-ejercicio5.PNG)
 
 ### Crear la red
-# COMPLETAR
+# docker network create net-wp -d bridge
 
 ### Crear el contenedor mysql a partir de la imagen mysql:8, configurar las variables de entorno necesarias
 # COMPLETAR
