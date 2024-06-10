@@ -5,7 +5,8 @@
 # docker network create net-wp -d bridge
 
 ### Crear el contenedor mysql a partir de la imagen mysql:8, configurar las variables de entorno necesarias
-# COMPLETAR
+# docker run --name contenedor-mysql --env-file C:\Users\jorma\OneDrive\Escritorio/sql_variables.env -P -d mysql:8
+Las variables de entorno son las mismas que la parte 2-variables-de-entorno
 
 ### Crear el contenedor wordpress a partir de la imagen: wordpress, configurar las variables de entorno necesarias
 # COMPLETAR
