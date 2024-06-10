@@ -18,7 +18,7 @@ La figura presenta el esquema creado en donde los puertos son:
 
 ### Crear la base de datos info, y dentro de esa base la tabla personas, con id (serial) y nombre (varchar), agregar un par de registros en la tabla, obligatorio incluir su nombre.
 Para realizar la conexión a la base de datos se tuvo que poner la ip
-Intenté poner el hostname pero no lo reconocía, solo lo reconocía por IP
+Intenté poner el hostname pero no lo reconocía, solo lo reconocía por IP, para arreglar esto había que poner en hostname el nombre del contenedor, no de la máquina
 ![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/8bc5b750-ccae-46cc-b824-0d8fca994e5f)
 ![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/53f98925-be8e-4c3c-9bd5-5e6ba552e49a)
 
