@@ -14,7 +14,9 @@ Las variables de entorno son las mismas que la parte 2-variables-de-entorno
 De acuerdo con el trabajo realizado, en la el esquema de ejercicio el puerto a es **(9300)**
 
 Ingresar desde el navegador al wordpress y finalizar la configuración de instalación.
-![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/e989c8f1-97c8-4882-887a-b89e2572f4c4)
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/9b16f344-4127-4b32-9832-80287a8bac74)
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/b6da3951-8485-4cad-86a6-dcf5fb8d7136)
+
 
 
 Desde el panel de admin: cambiar el tema y crear una nueva publicación.
