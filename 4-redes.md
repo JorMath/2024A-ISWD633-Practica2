@@ -48,7 +48,11 @@ docker network ls
 
 ![Imagen](imagenes/esquema-ejercicio-redes.PNG)
 
+docker network create red1 -d bridge
+docker run -d --name nginx[numero] --network red1 nginx:alpine
+El número se repite para alcanzar los contenedores
 # COLOCAR UNA CAPTURA DE LAS REDES EXISTENTES CREADAS
+
 
 # COLOCAR UNA(S) CAPTURAS(S) DE LOS CONTENEDORES CREADOS EN DONDE SE EVIDENCIE A QUÉ RED ESTÁN VINCULADOS
 
