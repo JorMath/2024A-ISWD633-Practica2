@@ -9,12 +9,13 @@
 Las variables de entorno son las mismas que la parte 2-variables-de-entorno
 
 ### Crear el contenedor wordpress a partir de la imagen: wordpress, configurar las variables de entorno necesarias
-# COMPLETAR
+# docker run --name wordpress -p 9300:80 -d wordpress 
 
-De acuerdo con el trabajo realizado, en la el esquema de ejercicio el puerto a es **(completar con el valor)**
+De acuerdo con el trabajo realizado, en la el esquema de ejercicio el puerto a es **(9300)**
 
 Ingresar desde el navegador al wordpress y finalizar la configuración de instalación.
-# COLOCAR UNA CAPTURA DE LA CONFIGURACIÓN
+![image](https://github.com/JorMath/2024A-ISWD633-Practica2/assets/94020880/e989c8f1-97c8-4882-887a-b89e2572f4c4)
+
 
 Desde el panel de admin: cambiar el tema y crear una nueva publicación.
 Ingresar a: http://localhost:9300/ 
